@@ -16,7 +16,7 @@ policies:
     enabled: true
     validationFailureAction: audit
   restrict_image_registries:
-    enabled: true
+    enabled: false
     validationFailureAction: audit
 
 namespaces:

@@ -18,21 +18,21 @@ spec:
   validationFailureAction: {{ .Values.policies.restrict_image_registries.validationFailureAction | quote }}
   background: true
   rules:
-  - name: validate-registries
-    match:
-      any:
-      - resources:
-          kinds:
-          - Pod
-    validate:
-      message: "No valid image registry. Use phoeni-docker-virtual.cluster.local or repo-ex.zcdi.dataport.de."
-      pattern:
-        spec:
-          =(ephemeralContainers):
-            - image: "phoeni-docker-virtual.cluster.local/* | *.repo-ex.zcdi.dataport.de/*"
-          =(initContainers):
-            - image: "phoeni-docker-virtual.cluster.local/* | *.repo-ex.zcdi.dataport.de/*"
-          containers:
-            - image: "phoeni-docker-virtual.cluster.local/* | *.repo-ex.zcdi.dataport.de/*"
+    - name: validate-registries
+      match:
+        any:
+          - resources:
+              kinds:
+                - Pod
+      validate:
+        message: "No valid image registry. Use a private registry."
+        pattern:
+          spec:
+            =(ephemeralContainers):
+              - image: "private.registry/*"
+            =(initContainers):
+              - image: "private.registry/*"
+            containers:
+              - image: "private.registry/*"
 {{- end }}
 {{- end }}
