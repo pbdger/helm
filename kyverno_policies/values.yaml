@@ -1,0 +1,26 @@
+# Default values for kyverno_policies.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+---
+policies:
+  disallow_host_namespaces:
+    enabled: true
+    validationFailureAction: audit
+  disallow_host_path:
+    enabled: true
+    validationFailureAction: audit
+  disallow_host_ports:
+    enabled: true
+    validationFailureAction: audit
+  disallow_latest_tag:
+    enabled: true
+    validationFailureAction: audit
+  restrict_image_registries:
+    enabled: true
+    validationFailureAction: audit
+
+namespaces:
+  managed:
+    - kube-node-lease
+    - kube-public
+    - kube-system
