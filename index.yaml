@@ -1,3 +1,24 @@
 apiVersion: v1
-entries: {}
-generated: "2025-01-23T11:00:51.263432+01:00"
+entries:
+  metallb-crds:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-23T11:02:29.968001+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 05e61e091854eb2fa5b0cf9a00f704e59ca67c2c03050f985000acc64cdd80bb
+    name: metallb-crds
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/pbdger/helm/main/metallb-crds-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-23T11:02:29.967893+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 25904cad983c487baf48380e13cb211e19dabd8ce45de2bbd9946959c60f3343
+    name: metallb-crds
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/pbdger/helm/main/metallb-crds-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-23T11:02:29.967467+01:00"
