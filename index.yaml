@@ -3,6 +3,16 @@ entries:
   cert-manager-crds:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-28T16:14:25.699624339Z"
+    description: A Helm chart for Kubernetes
+    digest: d793d589b1c5554ca2fff5747430f1b9ec8e6878dce87f407c98287fce0a3247
+    name: cert-manager-crds
+    type: application
+    urls:
+    - https://github.com/pbdger/helm-charts/releases/download/cert-manager-crds-0.1.1/cert-manager-crds-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-28T16:10:54.935745576Z"
     description: A Helm chart for Kubernetes
     digest: c0bfc2dbea666e1d2e21d9874275a8ec8e827ef238ad934e9dc2381351b35db0
@@ -33,4 +43,4 @@ entries:
     urls:
     - https://github.com/pbdger/helm-charts/releases/download/metallb-crds-0.2.0/metallb-crds-0.2.0.tgz
     version: 0.2.0
-generated: "2025-01-28T16:10:55.308551913Z"
+generated: "2025-01-28T16:14:25.699639387Z"
