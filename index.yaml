@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  cert-manager-crds:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-28T16:10:54.935745576Z"
+    description: A Helm chart for Kubernetes
+    digest: c0bfc2dbea666e1d2e21d9874275a8ec8e827ef238ad934e9dc2381351b35db0
+    name: cert-manager-crds
+    type: application
+    urls:
+    - https://github.com/pbdger/helm-charts/releases/download/cert-manager-crds-0.1.0/cert-manager-crds-0.1.0.tgz
+    version: 0.1.0
+  kyverno-policies:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-28T16:10:55.115735613Z"
+    description: A Helm chart for Kubernetes
+    digest: 188b3bc2c90236c8df1d9870c8145cc3fbd9d9acbdee66873cb7ad94bf6dbbb2
+    name: kyverno-policies
+    type: application
+    urls:
+    - https://github.com/pbdger/helm-charts/releases/download/kyverno-policies-0.1.0/kyverno-policies-0.1.0.tgz
+    version: 0.1.0
+  metallb-crds:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-28T16:10:55.30854501Z"
+    description: A Helm chart for Kubernetes
+    digest: 766b25db672292ebc65b8645be31bcc84d743116723b52587e16f31cb78485c1
+    name: metallb-crds
+    type: application
+    urls:
+    - https://github.com/pbdger/helm-charts/releases/download/metallb-crds-0.2.0/metallb-crds-0.2.0.tgz
+    version: 0.2.0
+generated: "2025-01-28T16:10:55.308551913Z"
