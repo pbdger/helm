@@ -5,4 +5,4 @@
 
 ipPoolName: "brambach-local-ips"
 address_ranges:
-  - 192.168.12.150-192.198.12.160
+  - 192.168.12.150-192.168.12.160
