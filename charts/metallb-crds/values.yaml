@@ -1,8 +1,4 @@
-# Default values for metallb-crds.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
 ---
-
 ipPoolName: "brambach-local-ips"
 address_ranges:
   - 192.168.12.150-192.168.12.160
