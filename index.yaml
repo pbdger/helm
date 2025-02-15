@@ -35,6 +35,16 @@ entries:
   metallb-crds:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-15T11:33:56.6936646Z"
+    description: A Helm chart for Kubernetes
+    digest: 76886991d35de0ce5b2616179b5d89a1981c29e8237a0285cc53431a2bbc364b
+    name: metallb-crds
+    type: application
+    urls:
+    - https://github.com/pbdger/helm-charts/releases/download/metallb-crds-1.0.2/metallb-crds-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-15T11:23:20.185218984Z"
     description: A Helm chart for Kubernetes
     digest: 87f1843d7cd3f3a7b67c094a2fa9c6acaea480be6726b5c6da18771c8b8bf08b
@@ -73,4 +83,4 @@ entries:
     urls:
     - https://github.com/pbdger/helm-charts/releases/download/metallb-crds-0.2.0/metallb-crds-0.2.0.tgz
     version: 0.2.0
-generated: "2025-02-15T11:23:20.185240574Z"
+generated: "2025-02-15T11:33:56.693720693Z"
