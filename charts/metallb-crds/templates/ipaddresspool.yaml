@@ -18,6 +18,7 @@ metadata:
   namespace: metallb-system
 spec:
   autoAssign: true
+  addresses:
   {{- range .Values.address_ranges_ipv6 }}
   - {{ . }}
   {{- end }}
