@@ -6,4 +6,5 @@ metadata:
   namespace: metallb-system
 spec:
   ipAddressPools:
-    - {{ .Values.ipPoolName }}
+    - {{ .Values.ipPoolName_ipv4 }}
+    - {{ .Values.ipPoolName_ipv6 }}
