@@ -2,7 +2,7 @@
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
-  name: {{ .Values.ipPoolName_ipv4 }}
+  name: {{ .Values.ipPoolName }}-IPv4
   namespace: {{ .Release.Namespace }}
 spec:
   addresses:
@@ -14,7 +14,7 @@ spec:
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
-  name: {{ .Values.ipPoolName_ipv4 }}
+  name: {{ .Values.ipPoolName }}-IPv6
   namespace: metallb-system
 spec:
   autoAssign: true
