@@ -7,4 +7,3 @@ metadata:
 spec:
   ipAddressPools:
     - {{ .Values.ipPoolName }}-ipv4
-    - {{ .Values.ipPoolName }}-ipv6

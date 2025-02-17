@@ -2,7 +2,5 @@
 ipPoolName: "brambach-local-ips"
 
 address_ranges_ipv4:
-  - 192.168.12.150-192.168.12.160
+  - 192.168.12.100-192.168.12.138
 
-address_ranges_ipv6:
-  - 2003:dc:6716:c200::100-2003:dc:6716:c200::1ff
